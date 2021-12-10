@@ -10,5 +10,6 @@ export default function Signup() {
             <TextInput placeholder="Input Address"/>
             <Button title="Sign up" color="red"/>
         </View>
+        
     );
 }
