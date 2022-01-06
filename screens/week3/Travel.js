@@ -1,3 +1,4 @@
+import { useNavigation } from '@react-navigation/native';
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
@@ -8,15 +9,16 @@ import MyIcon from '../../components/week3/MyIcon';
 import Signup from '../../components/week3/Signup';
 
 export default function Travel() {
+    const navigation = useNavigation(); 
     return (  
         <ScrollView>      
         <View style={{ flex: 1, flexDirection: 'column' ,paddingTop : 50  }}>
-            {/* <Text> Week 3 </Text> */}
-            {/* <Signup />
-            <Crad/> */}
-            {/* <Hotel/> */}
-            {/* <MyIcon/> */}
-            {/* <MyIcon title='หัวใจ' name='heart' size={30} color='orange'  /> */}
+             <Text> Week 3 </Text>
+             <Signup />
+            <Crad/>
+            <Hotel/> 
+            <MyIcon/>
+           <MyIcon title='หัวใจ' name='heart' size={30} color='orange'  /> 
             <Menu/>
         </View>
         </ScrollView>
