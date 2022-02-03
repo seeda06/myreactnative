@@ -18,14 +18,14 @@ export default function HomeIconMenu() {
         <MyIcon title="Travel" name="plane" size={30} color="orange"color="orange" onPress={()=>{ navigation.navigate("Travel"); }}  />
         <MyIcon title="Resort" name="hotel" size={30} color="orange" onPress={()=>{ navigation.navigate("Resort"); }}/>
         <MyIcon title="Health" name="heart" size={30} color="orange" onPress={()=>{ navigation.navigate("Health"); }}/>
-        <MyIcon title="xxx" name="question" size={30} color="orange" />
+        
       </View>
       {/* View ก้อนที่ 3 */}
       <View style={{ flexDirection : "row", marginTop : 10 }}>
       <MyIcon title="Pokemon" name="bolt" size={30} color="orange" onPress={()=>{ navigation.navigate("PokemonTab"); }} />
         <MyIcon title="Book Store" name="cubes" size={30} color="orange" onPress={ ()=>{ navigation.navigate("Book")}}/>
-        <MyIcon title="xxx" name="question" size={30} color="orange" />
-        <MyIcon title="xxx" name="question" size={30} color="orange" />
+        <MyIcon title="Location" name="map-marker" size={30} color="orange"  onPress={ ()=>{ navigation.navigate("Location") }}/>
+        
         <MyIcon title="More" name="ellipsis-h" size={30} color="orange" />
       </View>
     </View>
